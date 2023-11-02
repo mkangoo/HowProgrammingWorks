@@ -1,3 +1,4 @@
+'use strict';
 const INTERVAL = 500;
 let counter = 0;
 const MAX_VALUE = 10;
