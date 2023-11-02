@@ -8,6 +8,6 @@ const persons = [
   { name: "Rene Descartes" },
 ];
 
-for (person of persons) {
+for (const person of persons) {
   welcome(person);
 }
