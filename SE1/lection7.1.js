@@ -3,8 +3,8 @@ const getDayWithoutSwitch = (x) =>
   x > 0 && x <= day.length ? day[x - 1] : new Error("Invalid arguments");
 
 const getDayNumber = (name) => {
-  const n = day.indexOf(name);
-  return n !== -1 ? n + 1 : new Error(`Invalid day name ${name}`);
+  let n = day.indexOf(name);
+  return n !== -1 ? n++ : new Error(`Invalid day name ${name}`);
 };
 console.log(getDayWithoutSwitch(2));
 console.log(getDayNumber("Friday"));
