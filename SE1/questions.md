@@ -70,3 +70,5 @@ json,yaml
 
 ## Test
 Тестирование программ и обработка Stack Trace
+
+eslint
