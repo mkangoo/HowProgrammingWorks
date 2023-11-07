@@ -73,3 +73,26 @@ json,yaml
 
 eslint
 про сумматор чисел и строк
+про sort
+get/set
+Map/flatMAp
+Замыкание
+concat()  slice();
+let name = "Alex";
+function sayHi() {
+  console.log("Hi " + name);
+}
+name = "Masha";
+
+sayHi();
+
+
+Поиск дубликатов в массиве
+function findDuplicates(arr) {
+  return arr.filter((item, index) => arr.indexOf(item) !== index);
+}
+
+const myArray = [1, 2, 2, 3, 4, 4, 5];
+const duplicateValues = findDuplicates(myArray);
+console.log(duplicateValues); // [2, 4]
+
