@@ -1,8 +1,8 @@
-"use strict";
+'use strict';
 const Context = function () {
-  this.name = "Marcus";
+  this.name = 'Marcus';
   const city = {
-    name: "Moscow",
+    name: 'Moscow',
     year: 876,
     f1: function () {
       return this.name;
@@ -12,11 +12,11 @@ const Context = function () {
     },
     f3() {
       return this.name;
-    },
+    }
   };
   return city;
 };
 const city = new Context();
-console.log("city f1() = " + city.f1());
-console.log("city f2() = " + city.f2());
-console.log("city f3() = " + city.f3());
+console.log('city f1() = ' + city.f1());
+console.log('city f2() = ' + city.f2());
+console.log('city f3() = ' + city.f3());

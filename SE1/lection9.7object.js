@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 const p1 = {
   x: 10,
   y: 20,
@@ -8,9 +8,9 @@ const p1 = {
   },
   toString() {
     return `[${this.x}, ${this.y}]`;
-  },
+  }
 };
 p1.move(-5, 10);
 console.log(p1);
 console.log(p1.toString());
-console.log(p1 + "");
+console.log(p1 + '');

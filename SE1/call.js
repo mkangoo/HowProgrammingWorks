@@ -3,7 +3,7 @@ function sum(a, b, c) {
 }
 
 const sumInfo = {
-  name: "sum",
+  name: 'sum'
 };
 
 console.log(sum.call(sumInfo, 1, 2, 3));

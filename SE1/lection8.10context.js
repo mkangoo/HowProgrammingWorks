@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 const hash = () => {
   const data = {};
   let counter = 0;
@@ -10,8 +10,8 @@ const hash = () => {
   };
 };
 const h1 = hash();
-h1("name", "Marcus");
-h1("city", "Roma");
+h1('name', 'Marcus');
+h1('city', 'Roma');
 
-const obj1 = h1("born", 121);
+const obj1 = h1('born', 121);
 console.dir({ obj1 });

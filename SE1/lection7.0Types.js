@@ -1,20 +1,20 @@
 const i = 3;
 const x = 3.3;
-const s = "Hello";
+const s = 'Hello';
 const b = true;
 
 //У обьекта можно изменять поля,хоть он и записан через const.Мы не можем присвоить другой массив или другой объект
 const person = {
-  name: "Aleksandr",
+  name: 'Aleksandr',
   age: 22,
-  city: "Roma",
+  city: 'Roma'
 };
-person.city = "Moscow";
+person.city = 'Moscow';
 console.log({ isArray: Array.isArray(person) });
 
-const cities = ["Moscow", "Orenburg", "Kolchugino", "Odessa"];
-cities.push("Kiev");
-cities.unshift("London");
+const cities = ['Moscow', 'Orenburg', 'Kolchugino', 'Odessa'];
+cities.push('Kiev');
+cities.unshift('London');
 console.log(cities.shift());
 console.log(cities.pop());
 console.log({ cities }, typeof cities);
@@ -36,5 +36,5 @@ count = undefined + 1;
 console.log(count);
 
 const tr =
-  emptyObject === null ? "emtyObject is null" : "emptyObject is not null";
+  emptyObject === null ? 'emtyObject is null' : 'emptyObject is not null';
 console.log(tr);

@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 const adder = (initial = 0) => ({
   value: initial,
   steps: [initial],
@@ -6,7 +6,7 @@ const adder = (initial = 0) => ({
     this.steps.push(value);
     this.value += value;
     return this;
-  },
+  }
 });
 const Adder = class {
   constructor(initial = 0) {

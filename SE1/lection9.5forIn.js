@@ -2,13 +2,13 @@ const hash = {
   first: 7,
   second: 10,
   third: 3,
-  fourth: 9,
+  fourth: 9
 };
 hash.fifth = 2;
 
 for (const key in hash) {
   const value = hash[key];
-  console.log(key, "\t", typeof key, "\t", value, "\t", typeof value);
+  console.log(key, '\t', typeof key, '\t', value, '\t', typeof value);
 }
 
 const arr = [1, 2, 3, 4, 5];

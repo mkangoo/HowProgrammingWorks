@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 function move(x, y) {
   this.x += x;
   this.y += y;
@@ -15,4 +15,3 @@ p1move(-5, 10);
 
 console.log(p1);
 console.log(p1toString());
-

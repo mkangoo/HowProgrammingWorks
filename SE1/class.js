@@ -11,7 +11,7 @@ class Car {
     console.log(`${this.brand} ${this.color} ${this.year} stopped`);
   }
   static discount() {
-    console.log("Общая скидка -10%");
+    console.log('Общая скидка -10%');
   }
   set rating(value) {
     this.score = value.toUpperCase();
@@ -21,7 +21,7 @@ class Car {
   }
 }
 
-const tesla = new Car("Tesla", "red", 2020);
+const tesla = new Car('Tesla', 'red', 2020);
 Car.discount();
-tesla.rating = "A";
+tesla.rating = 'A';
 console.log(tesla.rating);

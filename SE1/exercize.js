@@ -1,4 +1,4 @@
-let name = "Aleksandr";
+let name = 'Aleksandr';
 let year = 2001;
 const welcome = (name) => {
   console.log(`Hello,${name}`);

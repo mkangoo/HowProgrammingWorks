@@ -8,7 +8,7 @@ const colors = [
   /* 5 */ 'blue',
   /* 6 */ 'magenta',
   /* 7 */ 'cyan',
-  /* 8 */ 'white',
+  /* 8 */ 'white'
 ];
 const colorer = (s, color) => `\x1b[3${color}m${s}\x1b[0m`;
 const colorize = (name) => {
@@ -29,5 +29,5 @@ const greetings = (name) =>
 const fullName = 'Marcus Aurelius Antoninus Augustus';
 console.log(greetings(fullName));
 
-const shortName = 'Marcus Aurelius'
+const shortName = 'Marcus Aurelius';
 console.log(greetings(shortName));
