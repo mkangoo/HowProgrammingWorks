@@ -7,7 +7,7 @@ const iterate = (array, listener) => {
 
 const city = ['Kiev', 'London', 'Moscow'];
 
-const each = (city) => {
+const print = (city) => {
   console.log('City ' + city);
 };
-iterate(city, each);
+iterate(city, print);

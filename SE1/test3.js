@@ -1,12 +1,5 @@
-const first = (callback) => {
-  setTimeout(() => {
-    console.log('First');
-    callback();
-  }, 400);
+const removeChar = (str) => {
+  const result = str.split('').pop().shift();
 };
 
-const second = () => {
-  console.log('Second');
-};
-
-first(second);
+console.log(removeChar('Hello'));
