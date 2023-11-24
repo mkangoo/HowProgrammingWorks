@@ -11,3 +11,5 @@ const cities = ['Kiev', 'Moscow', 'London'];
 const print = (city) => console.log('Next City:' + city);
 
 iterate(cities, print);
+
+
