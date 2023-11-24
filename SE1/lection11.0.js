@@ -1,5 +1,5 @@
-const log = (base, n) => Math.log(n) / Math.log(base);
-const createLog = (base) => (n) => log(base, n);
+const slog = (base, n) => Math.log(n) / Math.log(base);
+const createLog = (base) => (n) => slog(base, n);
 
 const lg = createLog(10);
 const ln = createLog(Math.E);
