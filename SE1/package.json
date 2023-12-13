@@ -4,5 +4,12 @@
   },
   "scripts": {
     "format": "prettier --write ."
-  }
+  },
+  "name": "se1",
+  "description": "",
+  "version": "1.0.0",
+  "main": "BigO.js",
+  "type": "module",
+  "author": "",
+  "license": "ISC"
 }
