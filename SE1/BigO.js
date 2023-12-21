@@ -6,10 +6,10 @@
 
 function fibonacci2(num) {
   let a = 1,
-    b = 1;
+    b = 1
   for (let i = 3; i <= num; i++) {
-    [a, b] = [b, a + b];
+    ;[a, b] = [b, a + b]
   }
-  return b;
+  return b
 }
-console.log(fibonacci2(40));
+console.log(fibonacci2(40))

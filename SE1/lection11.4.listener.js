@@ -1,13 +1,13 @@
-'use strict';
+'use strict'
 const iterate = (array, listener) => {
-  array.forEach((element) => {
-    listener(element);
-  });
-};
+  array.forEach(element => {
+    listener(element)
+  })
+}
 
-const city = ['Kiev', 'London', 'Moscow'];
+const city = ['Kiev', 'London', 'Moscow']
 
-const print = (city) => {
-  console.log('City ' + city);
-};
-iterate(city, print);
+const print = city => {
+  console.log('City ' + city)
+}
+iterate(city, print)

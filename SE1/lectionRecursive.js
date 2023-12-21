@@ -1,9 +1,9 @@
-const getMaxCallStackSize = (i) => {
+const getMaxCallStackSize = i => {
   try {
-    return getMaxCallStackSize(++i);
+    return getMaxCallStackSize(++i)
   } catch (e) {
-    return i;
+    return i
   }
-};
+}
 
-console.log(getMaxCallStackSize(0));
+console.log(getMaxCallStackSize(0))

@@ -1,1 +1,5 @@
-/paradigms
+node_modules
+
+# test file
+SE1/test.js
+SE1/test2.js

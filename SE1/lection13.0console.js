@@ -1,4 +1,4 @@
-console.time('Loop Time');
+console.time('Loop Time')
 
 const obj = {
   name: 'Marcus',
@@ -6,16 +6,16 @@ const obj = {
   children: [
     {
       name: 'Misha',
-      age: 19
+      age: 19,
     },
     {
       name: 'Masha',
-      age: 20
-    }
-  ]
-};
+      age: 20,
+    },
+  ],
+}
 
-console.log({ obj });
-console.dir({ obj }, { showHidden: true, depth: 20 });
+console.log({ obj })
+console.dir({ obj }, { showHidden: true, depth: 20 })
 
-console.timeEnd('Loop Time');
+console.timeEnd('Loop Time')

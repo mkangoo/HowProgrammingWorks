@@ -1,9 +1,9 @@
-let name = 'Aleksandr';
-let year = 2001;
-const welcome = (name) => {
-  console.log(`Hello,${name}`);
-};
-welcome(name);
+let name = 'Aleksandr'
+let year = 2001
+const welcome = name => {
+  console.log(`Hello,${name}`)
+}
+welcome(name)
 
 // const range = (start, end) => {
 //   const array = [];

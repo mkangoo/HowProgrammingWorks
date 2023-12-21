@@ -1,9 +1,9 @@
 setInterval(() => {
-  console.log("callback 1");
-}, 20);
+  console.log('callback 1')
+}, 20)
 setInterval(() => {
-  console.log("callback 2");
-}, 10);
+  console.log('callback 2')
+}, 10)
 setInterval(() => {
-  console.log("callback 3");
-}, 15);
+  console.log('callback 3')
+}, 15)

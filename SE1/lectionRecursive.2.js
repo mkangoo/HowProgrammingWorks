@@ -1,8 +1,8 @@
 function f(x) {
-  return g(x);
+  return g(x)
 }
 function g(x) {
-  return f(x);
+  return f(x)
 }
 
-console.log(f(0));
+console.log(f(0))
