@@ -3,3 +3,9 @@ node_modules
 # test file
 SE1/test.js
 SE1/test2.js
+
+#info.txt
+info/
+
+README.MD
+startProgramming
