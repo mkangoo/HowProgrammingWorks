@@ -12,3 +12,4 @@ questions/
 
 #config
 .babelrc
+jest.config.js
