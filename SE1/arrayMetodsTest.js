@@ -57,3 +57,8 @@ export const minMaxElementArr = arrNum => {
   const minElement = Math.min(...arrNum)
   return { maxElement, minElement }
 }
+
+export const findValue = (arrNum, targetValue) => {
+  const foundValue = arrNum.find(value => value === targetValue)
+  return foundValue !== undefined ? foundValue : null
+}

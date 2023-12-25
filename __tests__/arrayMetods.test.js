@@ -5,6 +5,7 @@ import { arrConcat } from '../SE1/arrayMetodsTest.js'
 import { sortNestedArrays } from '../SE1/arrayMetodsTest.js'
 import { reverseArr } from '../SE1/arrayMetodsTest.js'
 import { minMaxElementArr } from '../SE1/arrayMetodsTest.js'
+import { findValue } from '../SE1/arrayMetodsTest.js'
 
 test('Sorting array elements', () => {
   const unsortedArray = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
@@ -55,5 +56,12 @@ test('Find max and min elements in the array', () => {
   const result = minMaxElementArr(array)
   expect(result.maxElement).toEqual(8)
   expect(result.minElement).toEqual(1)
+  expect(array).toEqual([1, 5, 3, 8, 2, 7, 4])
+})
+
+test('Find value in the array', () => {
+  const array = [1, 5, 3, 8, 2, 7, 4]
+  expect(findValue(array, 8)).toEqual(8)
+  expect(findValue(array, 6)).toBeNull()
   expect(array).toEqual([1, 5, 3, 8, 2, 7, 4])
 })
