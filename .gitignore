@@ -9,4 +9,6 @@ info/
 
 #questions
 questions/
-README.MD
+
+#config
+.babelrc
