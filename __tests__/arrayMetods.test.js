@@ -6,6 +6,7 @@ import { sortNestedArrays } from '../SE1/arrayMetodsTest.js'
 import { reverseArr } from '../SE1/arrayMetodsTest.js'
 import { minMaxElementArr } from '../SE1/arrayMetodsTest.js'
 import { findValue } from '../SE1/arrayMetodsTest.js'
+import { removeDublicate } from '../SE1/arrayMetodsTest.js'
 
 test('Sorting array elements', () => {
   const unsortedArray = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
@@ -20,7 +21,7 @@ test('Sum of array elements', () => {
   expect(sumElement([])).toEqual([])
 })
 
-test('Array filtering, elements >10', () => {
+test('Array filtering, elements > 10', () => {
   const originArr = [32, 17, 2, 19, 7]
   const expectedArr = [32, 17, 19]
   expect(filterArray([])).toEqual([])
@@ -64,4 +65,10 @@ test('Find value in the array', () => {
   expect(findValue(array, 8)).toEqual(8)
   expect(findValue(array, 6)).toBeNull()
   expect(array).toEqual([1, 5, 3, 8, 2, 7, 4])
+})
+
+test('Removing duplicates in an array', () => {
+  const array = [1, 2, 3, 3, 4, 5, 5]
+  expect(removeDublicate(array)).toEqual([1, 2, 3, 4, 5])
+  expect(array).toEqual([1, 2, 3, 3, 4, 5, 5])
 })

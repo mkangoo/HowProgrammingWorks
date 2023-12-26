@@ -62,3 +62,10 @@ export const findValue = (arrNum, targetValue) => {
   const foundValue = arrNum.find(value => value === targetValue)
   return foundValue !== undefined ? foundValue : null
 }
+
+export function removeDublicate(arr) {
+  const result = arr.filter((element, index, mas) => {
+    return mas.indexOf(element) === index
+  })
+  return result
+}
