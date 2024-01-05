@@ -1,13 +1,6 @@
 {
-  "name": "lection",
-  "version": "1.0.0",
-  "description": "Practice based on lectures",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
   "author": "mkangoo",
-  "license": "ISC",
+  "description": "Practice based on lectures",
   "devDependencies": {
     "@babel/preset-env": "^7.23.6",
     "babel-jest": "^29.7.0",
@@ -17,5 +10,15 @@
     "eslint-plugin-prettier": "^5.1.0",
     "jest": "^29.7.0",
     "prettier": "^3.1.1"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "name": "lection",
+  "scripts": {
+    "test": "jest"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
