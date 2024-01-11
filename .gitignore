@@ -14,3 +14,6 @@ questions/
 #config
 .babelrc
 jest.config.js
+
+#parser output file
+startProgramming/Python/output.html
