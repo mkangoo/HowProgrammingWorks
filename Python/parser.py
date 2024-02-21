@@ -2,7 +2,7 @@ import sys
 from bs4 import BeautifulSoup
 import requests
 
-url = 'https://tacitcoast.github.io/'
+url = "https://my.guu.ru/student/classes"
 
 try:
     response = requests.get(url)
