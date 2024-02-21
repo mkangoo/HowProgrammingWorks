@@ -1,6 +1,6 @@
-const calculateAge = birthdate => {
+const calculateAge = date => {
   const currentDate = new Date()
-  const birthDate = new Date(birthdate)
+  const birthDate = new Date(date)
   const ageDifference = currentDate - birthDate
   const millisecondsInYear = 1000 * 60 * 60 * 24 * 365.25
   const age = Math.floor(ageDifference / millisecondsInYear)
