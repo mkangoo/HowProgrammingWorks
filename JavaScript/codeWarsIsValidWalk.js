@@ -6,9 +6,11 @@ const isValidWalk = walk => {
     w: 0,
     e: 0,
   }
-  for (const step of walk) {
-    counts[step]++
-  }
+  // for (const step of walk) {
+  //   counts[step]++
+  // }
+  walk.forEach(element => counts[element]++)
+
   return counts['n'] === counts['s'] && counts['e'] === counts['w']
 }
 const mas = ['n', 's', 'n', 's', 'n', 's', 'n', 's', 'n', 's']
